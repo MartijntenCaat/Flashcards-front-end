@@ -1,21 +1,23 @@
 body {
     margin: auto;
-    max-width: 50%;
-    max-height: 50%;
-    border: blue 10px dotted;
+    border: blue 1px dotted;
 }
 
 main {
-    border: greenyellow 10px dotted;
+    margin: 4vmin auto;
+    border: red 1px dotted;
+    /*margin: auto;*/
+    width: 120vmin;
 }
 
 #title {
-    border: yellow 5px dotted;
+    border: yellow 1px dotted;
     text-align: center;
 }
 
 .card-container {
-    border: red 2px solid;
+
+    border: red 1px solid;
     display: flex;
     justify-content: space-evenly;
 }
@@ -25,8 +27,13 @@ main {
 }
 
 .card {
-    height: auto;
-    border: purple 5px dotted;
+    height: 20vmin;
+    width: auto;
+    border: purple 1px dotted;
     justify-content: center;
     text-align: center;
+}
+
+.card p {
+    margin: auto;
 }
