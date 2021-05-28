@@ -14,15 +14,20 @@ main {
 }
 
 #title {
-    border: yellow 1px dotted;
+    background-color: black;
     text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    color: white;
+    margin: auto;
 }
 
 .card-container {
     flex-flow: column;
     padding: 20px;
     background-color: white;
-    height: 20vmin;
     border: red 1px solid;
     display: flex;
 }
@@ -32,13 +37,18 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    height: 33%;
 }
 
 .card {
-    width: 330px;
+    margin: 5px;
+    width: 15vw;
+
+    text-align: center;
     border: purple 1px dotted;
 }
 
 .card p {
+    height: 150px;
     margin: auto;
 }
