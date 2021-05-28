@@ -6,10 +6,11 @@ body {
 }
 
 main {
+    padding: 25px;
     margin: 4vmin auto;
-    border: red 1px dotted;
-    /*margin: auto;*/
     width: 120vmin;
+    background: linear-gradient(white, grey);
+    background-blend-mode: lighten;
 }
 
 #title {
@@ -18,22 +19,24 @@ main {
 }
 
 .card-container {
-
+    flex-flow: column;
+    padding: 20px;
+    background-color: white;
+    height: 20vmin;
     border: red 1px solid;
     display: flex;
-    justify-content: space-evenly;
 }
 
 .card-row {
-    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .card {
-    height: 20vmin;
-    width: auto;
+    width: 330px;
     border: purple 1px dotted;
-    justify-content: center;
-    text-align: center;
 }
 
 .card p {
