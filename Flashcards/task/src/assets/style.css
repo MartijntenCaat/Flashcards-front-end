@@ -2,6 +2,8 @@
 
 html {
     font-family: 'Patrick Hand', cursive;
+    text-shadow: 2px 2px #020101;
+
 }
 
 body {
@@ -12,8 +14,8 @@ body {
 }
 
 main {
-    padding: 25px;
-    height: 75vh;
+    padding: 1.5em;
+    height: 80vh;
     margin: 5vh 15vw;
     background: rgba(93, 109, 126, 0.4);
     border-radius: 15px;
@@ -25,6 +27,7 @@ main {
 }
 
 h1 {
+    font-size: 4em;
     color: white;
     margin: auto;
 }
@@ -32,8 +35,7 @@ h1 {
 .card-container {
     display: flex;
     flex-flow: column;
-    padding: 20px;
-    background: rgba(243, 246, 244, 0.4);
+    padding: inherit;
     border-radius: 15px;
 }
 
@@ -47,16 +49,15 @@ h1 {
 }
 
 .card {
-    background-color: grey;
+    background: rgba(135, 135, 135, 0.9);
     height: 18vh;
     width: 18vw;
     text-align: center;
-    border: purple 1px dotted;
+    border-radius: 15px;
 }
 
 .card p {
-    vertical-align: middle;
+    font-size: 2em;
     text-align: center;
-    margin: auto;
     color: white;
 }
