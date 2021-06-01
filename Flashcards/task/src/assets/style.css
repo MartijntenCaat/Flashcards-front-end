@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:weight@600&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+primary: 880699, E72EFF, CD12E6
+secondary: 4C9900, 7CE612
+*/
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+main {
+    width: 100%;
+}
+
+.small-container {
+    width: 40%;
+    padding: 1.5em;
+    margin: 5vh auto;
+    background: rgba(93, 109, 126, 0.4);
+    border-radius: 15px;
+}
+
+#title {
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: 2px 2px #020101;
+    font-size: 4em;
+    color: white;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: column;
+    padding: inherit;
+    border-radius: 15px;
+}
+
+.card-row {
+    margin: 1vmin;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 33%;
+}
+
+.card {
+    background-color: #880699;
+    opacity: 70%;
+    height: 20vh;
+    width: 20vh;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card-text {
+    font-size: 2em;
+    height: 20%;
+    color: #7CE612;
+    margin: 40% 0;
+}
+
+.logo {
+    display: none;
+    position: absolute;
+    float: left;
+    z-index: 1000;
+    width: 250px;
+}
+
+.logo img {
+    max-width: 250px;
+}
