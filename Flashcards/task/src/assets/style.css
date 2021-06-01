@@ -74,6 +74,7 @@ h1 {
 }
 
 .logo {
+    display: none;
     position: absolute;
     float: left;
     z-index: 1000;
