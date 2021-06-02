@@ -13,7 +13,7 @@ secondary: 4C9900, 7CE612
 body {
     background-image: url("background.png");
     background-repeat: no-repeat;
-    background-origin: content-box;
+    background-size: contain;
 }
 
 main {
@@ -75,8 +75,8 @@ h1 {
 
 .logo {
     position: absolute;
-    left: 10px;
-    width: 250px;
+    left: 20px;
+    bottom: 20px;
 }
 
 .logo img {
