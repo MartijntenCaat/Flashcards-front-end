@@ -35,7 +35,7 @@ main {
 
 h1 {
     font-family: 'Patrick Hand', cursive;
-    text-shadow: 2px 2px #020101;
+    text-shadow: 4px 4px #020101;
     font-size: 4em;
     color: white;
     margin: auto;
@@ -59,7 +59,7 @@ h1 {
 
 .card {
     background-color: #880699;
-    opacity: 70%;
+    opacity: 90%;
     height: 20vh;
     width: 20vh;
     text-align: center;
@@ -67,7 +67,8 @@ h1 {
 }
 
 .card-text {
-    font-size: 2em;
+    font-size: 1.7em;
+    text-shadow: 3px 3px #020101;
     height: 20%;
     color: #7CE612;
     margin: 40% 0;
