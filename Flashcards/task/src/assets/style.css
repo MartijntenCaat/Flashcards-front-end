@@ -57,21 +57,56 @@ h1 {
     height: 33%;
 }
 
-.card {
+.card-filler {
     background-color: #880699;
     opacity: 90%;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.front, .card-filler, .back {
     height: 20vh;
     width: 20vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
 }
 
-.card-text {
+.front {
+    height: inherit;
+    width: inherit;
+    position: absolute;
     font-size: 1.7em;
     text-shadow: 3px 3px #020101;
-    height: 20%;
-    color: #7CE612;
-    margin: 40% 0;
+    /*color: #7CE612;*/
+    background-color: red;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.back {
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    font-size: 1.7em;
+    text-shadow: 3px 3px #020101;
+    /*color: #7CE612;*/
+    background-color: green;
+    z-index: -1;
+    transform: rotateY(180deg);
+}
+.card-filler:hover .back{
+    transform: rotateY(180deg);
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.card-filler:hover {
+    transform: rotateY(180deg);
 }
 
 .logo {
@@ -82,4 +117,8 @@ h1 {
 
 .logo img {
     max-width: 250px;
+}
+
+.logo a:hover {
+    animation: hideshow 1s ease infinite;
 }
