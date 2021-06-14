@@ -66,7 +66,7 @@ h1 {
     transform-style: preserve-3d;
 }
 
-.front, .card-filler, .back {
+.front, .card-filler, .back, .middle{
     height: 20vh;
     width: 20vh;
     display: flex;
