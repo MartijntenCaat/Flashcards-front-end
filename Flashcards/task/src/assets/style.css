@@ -21,7 +21,7 @@ main {
 }
 
 .small-container {
-    width: 40%;
+    width: 80vmin;
     padding: 1.5em;
     margin: 5vh auto;
     background: rgba(93, 109, 126, 0.4);
@@ -48,18 +48,15 @@ h1 {
     border-radius: 15px;
     font-size: 1.7em;
     text-shadow: 3px 3px #020101;
-}
 
-.card-row {
-    margin: 1vmin;
     align-items: center;
-    display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     height: 33%;
 }
 
 .card-filler {
+    margin: 1vmin;
     z-index: 0;
     position: relative;
     transition: all 1s linear;
